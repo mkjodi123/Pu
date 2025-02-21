@@ -183,7 +183,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
  Usage: /remove <userid>'''
     else:
-        response = "Purchase karle bsdk:- @Mk_ddos ."
+        response = "**Purchase karle bsdk:- @Mk_ddos** ."
 
     bot.reply_to(message, response)
     
@@ -202,7 +202,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Saaf karane ke lie koee Log nahin mila ."
     else:
-        response = "BhenChod Owner na HAI TU LODE."
+        response = "**BhenChod Owner na HAI TU LODE**."
     bot.reply_to(message, response)
 
  
@@ -247,7 +247,7 @@ def show_recent_logs(message):
             response = "KOI DATA NHI HAI "
             bot.reply_to(message, response)
     else:
-        response = "BhenChod Owner na HAI TU LODE."
+        response = "**BhenChod Owner na HAI TU LODE**."
         bot.reply_to(message, response)
 
 
@@ -290,8 +290,8 @@ def handle_attack(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
 
-            if time > 80:
-                response = "Error: Time interval must be less than 80"
+            if time > 100:
+                response = "Error: Time interval must be less than 100"
             else:
                 attack_running = True  # Set the attack  state to running
                 try:
@@ -311,7 +311,7 @@ def handle_attack(message):
         else:
             response = "Usage: /attack  <target> <port> <time>"
     else:
-        response = "BHEN KA LAND OKAAT MATT BHULL APNA ."
+        response = "**BHEN KA LAND OKAAT MATT BHULL APNA** ."
 
     bot.reply_to(message, response)
 
