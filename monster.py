@@ -379,7 +379,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/+M_0atJiJlhwzMmY1 OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/+r9JfnsU_w3gyNTQ9 OTHERWISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
