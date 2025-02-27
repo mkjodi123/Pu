@@ -4,7 +4,7 @@ import datetime
 import os
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7975472759:AAEzEzyPU_seSCpEnwfZf6_CFVr1KHVxg9Y')
+bot = telebot.TeleBot('7794375535:AAFIZCdS7OQmZ3Bdz7O7RBpIQ5VMadyy3N8')
 
 # Admin user IDs
 admin_id = {"7353797869"}
@@ -147,7 +147,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add ."
     else:
-        response = "Mood ni hai abhi pelhe purchase kar isse:- @Mk_ddos."
+        response = "Mood ni hai abhi pelhe purchase kar isse:- @Systum_dead."
 
     bot.reply_to(message , response)
 
@@ -183,7 +183,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
  Usage: /remove <userid>'''
     else:
-        response = "**Purchase karle bsdk:- @Mk_ddos** ."
+        response = "**Purchase karle bsdk:- @Systum_dead** ."
 
     bot.reply_to(message, response)
     
@@ -351,8 +351,8 @@ def show_help(message):
 👀 To See Admin Commands:
 🤖 /admincmd : Shows All Admin Commands.
 
-Buy From :- @Mk_ddos
-Official Channel :- https://t.me/monster_ddos
+Buy From :- @Systum_dead
+Official Channel :- 
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -367,9 +367,9 @@ Official Channel :- https://t.me/monster_ddos
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''🔥monster ke LODE pe aapka swagat hai, {user_name}! Sabse acche se bgmi ki maa behen yahi hack karta hai. Kharidne ke liye Kira se sampark karein.
+    response = f'''🔥 SYSTEM  ke LODE pe aapka swagat hai, {user_name}! Sabse acche se bgmi ki maa behen yahi hack karta hai. Kharidne ke liye Kira se sampark karein.
 🤗Try To Run This Command : /help 
-💵BUY :-@Mk_ddos'''
+💵BUY :-@Systum_dead'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
